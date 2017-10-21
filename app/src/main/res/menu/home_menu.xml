@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeMShare"
+        android:icon="@drawable/ic_share_white_24dp"
+        android:title="@string/share"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/homeMSettings"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="@string/settings"
+        app:showAsAction="always" />
+
+    <group app:showAsAction="always">
+
+        <item
+            android:id="@+id/homeMPrivate"
+            android:title="@string/privateOffice" />
+        <item
+            android:id="@+id/homeMRequisites"
+            android:title="@string/fundRequisites" />
+    </group>
+</menu>

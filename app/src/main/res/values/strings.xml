@@ -2,7 +2,7 @@
     <string name="app_name">Jardam</string>
     <string name="agreement">Условия соглашения.</string>
     <string name="login_put_data">Введите личные данные по желанию</string>
-    <string name="home_advertising">На лечение Тестового Т.Т осталось собрать 10 000 сом.</string>
+    <string name="home_advertising">Иформация.</string>
     <string name="acceptTransfer">Подтвердите перевод</string>
     <string name="shareLink">Поделиться сылкой</string>
     <string name="checkInternet">Проверьте интернет</string>
@@ -30,9 +30,11 @@
         <item>Раз в неделю</item>
     </string-array>
 
+    <string name="login">Логин</string>
     <string name="name">Имя</string>
     <string name="secName">Фамилия</string>
     <string name="thName">Отчество</string>
+    <string name="fioIfWant">ФИО по желанию</string>
     <string name="som">СОМ</string>
 
     <string name="acceptLicense">Принять</string>
