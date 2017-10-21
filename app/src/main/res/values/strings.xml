@@ -1,17 +1,53 @@
 <resources>
     <string name="app_name">Jardam</string>
-    <string name="title_activity_login">Sign in</string>
+    <string name="agreement">Условия соглашения.</string>
+    <string name="login_put_data">Введите личные данные по желанию</string>
+    <string name="home_advertising">На лечение Тестового Т.Т осталось собрать 10 000 сом.</string>
+    <string name="acceptTransfer">Подтвердите перевод</string>
+    <string name="shareLink">Поделиться сылкой</string>
+    <string name="checkInternet">Проверьте интернет</string>
+    <string name="youTransferMoney">Вы хотите отправить на помощь Тестову Т.Т</string>
+    <string name="fundRequisites">Реквизиты фонда</string>
+    <string name="userHelpInfo">Вами было переведено на счет фонда 100 сом за все время.</string>
+    <string name="userHelpsFollowings">Вы помогли следующим людям:</string>
+    <string name="humanAge">30 лет</string>
+    <string name="humanStatus">Женат, двое детей.</string>
+    <string name="humanAddress">г. Тест</string>
+    <string name="humanDesc">Тестов Т. работает учителем математики в средней школе № 1.
+        Воспитал нескольких олимпиадников которые нераз занимали первые места в республиканских
+        и международных олимпиадах. Работает над решением Гипотезы Римана которая
+        является одной из не решенных задач в математике и была внесена в список \"Задачи тысячелетия\".</string>
 
-    <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
+    <string name="fundRequisitesText">Реквизиты фонда:\nСчет в Оптима Банк: 1115122532152 сом
+    \n1115122532153 дол\n1115122532154 руб\n1115122532155 евро
+    \nАдрес: пр.Мира 254\nТел: +996 312 123 456\nСайт: jardam.kg</string>
+
+    <string name="setSumOfTrans">Установите сумму перевода по умолчанию:</string>
+
+    <string-array name="notify_me_values">
+        <item>Каждый день</item>
+        <item>Раз в три дня</item>
+        <item>Раз в неделю</item>
+    </string-array>
+
+    <string name="name">Имя</string>
+    <string name="secName">Фамилия</string>
+    <string name="thName">Отчество</string>
+    <string name="som">СОМ</string>
+
+    <string name="acceptLicense">Принять</string>
+    <string name="skip">Пропустить</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">OK</string>
+    <string name="transferMoney">Перевести деньги</string>
+    <string name="share">Поделиться</string>
+    <string name="privateOffice">Личный кабинет</string>
+    <string name="settings">Настройки</string>
+
+    <string name="agreementsTerms">Условия соглашения</string>
+    <string name="fio">ФИО:</string>
+    <string name="test_fio">Тестов Т.Т.</string>
+    <string name="notify_me">Уведомлять меня о переводе:</string>
+    <string name="no_internet">Не возможно обновить данные. Проверьте интернет подключение.</string>
 </resources>
