@@ -19,4 +19,4 @@
 Предворительное проиложение можете скачать и установить себе [здесь](https://drive.google.com/file/d/0B2fbUdK30vzeRk1MNlNZX0gyNWM/view?usp=sharing).
 
 ## Требования к устройству:
-Android 4.4 (KitKat) +
+Android 4.4 (KitKat) и выше
