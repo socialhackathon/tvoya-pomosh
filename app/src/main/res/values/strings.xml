@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Jardam</string>
+    <string name="app_name">Твоя помощь</string>
     <string name="agreement">Условия соглашения.</string>
     <string name="login_put_data">Введите личные данные по желанию</string>
     <string name="home_advertising">Иформация.</string>
@@ -7,7 +7,9 @@
     <string name="shareLink">Поделиться сылкой</string>
     <string name="checkInternet">Проверьте интернет</string>
     <string name="youTransferMoney">Вы хотите отправить на помощь Тестову Т.Т</string>
+    <string name="thankYouForTransfer">Спасибо! Вы можете спасти жизнь человека.</string>
     <string name="fundRequisites">Реквизиты фонда</string>
+    <string name="youTransfered">Вы отправили </string>
     <string name="userHelpInfo">Вами было переведено на счет фонда 100 сом за все время.</string>
     <string name="userHelpsFollowings">Вы помогли следующим людям:</string>
     <string name="humanAge">30 лет</string>
@@ -52,4 +54,6 @@
     <string name="test_fio">Тестов Т.Т.</string>
     <string name="notify_me">Уведомлять меня о переводе:</string>
     <string name="no_internet">Не возможно обновить данные. Проверьте интернет подключение.</string>
+
+    <string name="anyError">Произошла ошибка.\nПроверьте интернет соединение</string>
 </resources>

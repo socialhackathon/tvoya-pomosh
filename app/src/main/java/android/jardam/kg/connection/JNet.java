@@ -2,7 +2,9 @@ package android.jardam.kg.connection;
 
 import android.jardam.kg.connection.entity.AddUser;
 import android.jardam.kg.connection.entity.GetAds;
+import android.jardam.kg.connection.entity.GetSum;
 import android.jardam.kg.connection.entity.Human;
+import android.jardam.kg.connection.entity.Summ;
 
 import retrofit2.Callback;
 import retrofit2.Retrofit;
@@ -34,5 +36,13 @@ public class JNet {
 
     public static void getAd(Callback<GetAds> callback){
         jService.getAd().enqueue(callback);
+    }
+
+    public static void getSumm(Callback<GetSum> callback){
+        jService.getSumm().enqueue(callback);
+    }
+
+    public static void addOperation(Callback<GetSum> callback, int adsId, int userId, int sum){
+        jService.addOperation(adsId, userId, sum).enqueue(callback);
     }
 }

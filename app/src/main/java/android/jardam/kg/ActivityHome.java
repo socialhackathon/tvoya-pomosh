@@ -71,6 +71,7 @@ public class ActivityHome extends AppCompatActivity implements View.OnClickListe
                             Glide.with(ActivityHome.this)
                                     .load(ad.image)
                                     .into(imageHuman);
+                            AppSettings.putInt(ActivityHome.this, AppValues.ADD_ID, getAd.ad.ID);
                         }else Log.i(TAG, "onResponse: ads is null or empty");
                     } else {
                         try {

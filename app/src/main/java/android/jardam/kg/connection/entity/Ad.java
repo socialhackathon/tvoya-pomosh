@@ -2,8 +2,6 @@ package android.jardam.kg.connection.entity;
 
 import com.google.gson.annotations.SerializedName;
 
-import java.util.Date;
-
 public class Ad {
     @SerializedName("ID")
     public int ID;
